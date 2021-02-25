@@ -1,0 +1,65 @@
+.header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+}
+
+.bottomWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pageFormWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pageForm {
+  display: flex;
+  align-items: center;
+}
+
+.pageInput {
+  width: 30px;
+  text-align: center;
+}
+
+.taskItem {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.taskColumn {
+  width: 100px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+}
+
+.taskColumnText {
+  max-width: 100%;
+  text-align: center;
+}
+
+.addForm {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+  align-items: center;
+}
+
+.changeButton {
+  position: absolute;
+  right: -100px;
+  top: calc(50% - 10px);
+}
